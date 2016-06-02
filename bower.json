@@ -1,0 +1,25 @@
+{
+  "name": "trainingcenter",
+  "description": "This is a training center for Techbow LLC.",
+  "main": "index.js",
+  "authors": [
+    "Jiyang Wang <jiyang.wang.us@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/edward830love/TrainingCenter",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "toastr": "^2.1.2",
+    "angular": "^1.5.6",
+    "angular-resource": "^1.5.6",
+    "angular-route": "^1.5.6"
+  }
+}
