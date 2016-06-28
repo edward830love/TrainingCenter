@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edward830love/TrainingCenter.git"
+    "url": "git+https://github.com/jiyangwang/TrainingCenter.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/edward830love/TrainingCenter/issues"
+    "url": "https://github.com/jiyangwang/TrainingCenter/issues"
   },
-  "homepage": "https://github.com/edward830love/TrainingCenter#readme",
+  "homepage": "https://github.com/jiyangwang/TrainingCenter#readme",
   "dependencies": {
     "body-parser": "^1.15.1",
     "bower": "^1.7.9",

@@ -6,7 +6,8 @@ var express = require('express'),
     session = require('express-session'),
     passport = require('passport');
 
-module.exports = function (app, config) {
+
+module.exports = function(app, config) {
     function compile(str, path) {
         return stylus(str).set('filename', path);
     }
@@ -15,9 +16,9 @@ module.exports = function (app, config) {
     app.set('view engine', 'jade');
     app.use(logger('dev'));
     app.use(cookieParser());
-    app.use(session({secret: 'TrainingCenter awesome',resave:false, saveUninitialized:false}));
     app.use(bodyParser.urlencoded({extended:true}));
     app.use(bodyParser.json());
+    app.use(session({secret: 'trainingcenter',resave:false,saveUninitialized:false}));
     app.use(passport.initialize());
     app.use(passport.session());
     app.use(stylus.middleware(

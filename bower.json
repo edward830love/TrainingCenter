@@ -6,7 +6,7 @@
     "Jiyang Wang <jiyang.wang.us@gmail.com>"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/edward830love/TrainingCenter",
+  "homepage": "https://github.com/jiyangwang/TrainingCenter",
   "ignore": [
     "**/.*",
     "node_modules",

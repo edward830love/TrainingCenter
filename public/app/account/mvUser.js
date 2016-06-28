@@ -1,9 +1,9 @@
 angular.module('app').factory('mvUser', function($resource) {
-    var UserResoucre = $resource('/api/users/:id', {_id: "@id"});
+    var UserResource = $resource('/api/users/:id', {_id: "@id"});
 
-    UserResoucre.prototype.isAdmin = function() {
+    UserResource.prototype.isAdmin = function() {
         return this.roles && this.roles.indexOf('admin') > -1;
     }
 
-    return UserResoucre;
+    return UserResource;
 });

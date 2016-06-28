@@ -16,4 +16,5 @@ angular.module('app').controller('mvMainCtrl', function($scope) {
     {name: 'How to Deal with Narcissistic Coworkers', featured: true, published: new Date('2/15/2013')},
     {name: 'Death March Coding for Fun and Profit', featured: true, published: new Date('7/1/2013')}
   ]
+
 });
