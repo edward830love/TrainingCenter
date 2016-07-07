@@ -14,7 +14,7 @@ angular.module('app').controller('mvProfileCtrl', function($scope, mvAuth, mvIde
         }
 
         mvAuth.updateCurrentUser(newUserData).then(function() {
-            mvNotifier.notify('Your user account has been updated');
+            mvNotifier.notify('Your user profile has been successfully updated');
         }, function(reason) {
             mvNotifier.error(reason);
         })

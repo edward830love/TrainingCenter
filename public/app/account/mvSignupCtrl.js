@@ -15,4 +15,4 @@ angular.module('app').controller('mvSignupCtrl', function($scope, mvUser, mvNoti
             mvNotifier.error(reason);
         })
     }
-})
+}) 

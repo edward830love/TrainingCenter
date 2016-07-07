@@ -5,15 +5,17 @@ block main-content
     .container
       .navbar-header
         a.navbar-brand(href="/") TrainingCenter
-          h6 -Web Coding Training
+          h6 -Web Coding Place
       .navbar-collapse.collapse
         ul.nav.navbar-nav
           li
             a(href="/") Home
+          li
+            a(href="/courses") Courses
         div(ng-include="'/partials/account/navbar-login'")
 
   section.content
     div(ng-view)
 
   footer.container.text-center
-    p &copy; 2016 TrainingCenter Techbow LLC.
+    p &copy; 2016 TechBow LLC.
